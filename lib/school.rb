@@ -36,7 +36,8 @@ class School
   
   def sort
     roster.map do |grade, array|
-      array.sort
+      new_array = array.sort
+      grade => 
     end
   end   
 end
