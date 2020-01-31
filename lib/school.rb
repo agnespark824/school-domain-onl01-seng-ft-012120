@@ -38,5 +38,5 @@ class School
     roster.values.map do |array|
       array.sort
     end
-      
+  end   
 end
