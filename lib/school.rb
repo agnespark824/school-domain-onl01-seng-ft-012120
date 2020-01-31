@@ -18,15 +18,15 @@ class School
   def roster
     @roster
   end
-  binding.pry
+
   roster = {}
   
   def add_student(name, grade)
-    if hash.key?(grade)
-      hash[grade] << name
+    if roster.key?(grade)
+      roster[grade] << name
     else 
-      hash[grade] = []
-      hash[grade] << name
+      roster[grade] = []
+      roster[grade] << name
     end
   end  
 
