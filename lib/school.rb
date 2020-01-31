@@ -10,7 +10,7 @@ class School
   def roster=(hash)
   #return hash with keys of grade levels
     @roster = hash
-
+    {}
   end
   
   def roster
