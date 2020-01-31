@@ -1,3 +1,5 @@
+require 'pry'
+
 class School
 #  attr_accessor :grade
 #  attr_writer 
@@ -18,6 +20,7 @@ class School
   end
   
   def add_student(name, grade)
+    break.pry
     if hash.key?(grade)
       hash[grade] << name
     else 
