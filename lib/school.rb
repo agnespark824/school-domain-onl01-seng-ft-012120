@@ -36,7 +36,7 @@ class School
   
   def sort
     roster.values.map do |array|
-      
-    
+      array.sort
+    end
       
 end
