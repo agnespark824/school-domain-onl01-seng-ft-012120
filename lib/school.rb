@@ -19,12 +19,10 @@ class School
     @roster
   end
   
-  
-  
-  binding.pry
+  roster = {}
   
   def add_student(name, grade)
-   
+   binding.pry 
     if hash.key?(grade)
       hash[grade] << name
     else 
