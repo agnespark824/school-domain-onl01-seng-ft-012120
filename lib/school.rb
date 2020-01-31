@@ -36,8 +36,7 @@ class School
   
   def sort
     roster.update(roster) do |grade, array|
-      new_array = array.sort
-      grade => 
+      array.sort
     end
   end   
 end
