@@ -5,12 +5,12 @@ class School
  
   def initialize(name)
     name=(name)
+    @roster = {}
   end
   
   def roster=(roster)
   #return hash with keys of grade levels
     @roster = roster
-    {}
   end
   
   def roster
