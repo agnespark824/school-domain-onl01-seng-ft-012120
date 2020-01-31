@@ -7,7 +7,7 @@ class School
  
   def initialize(name)
     name=(name)
-    @roster = {}
+   # @roster = {}
   end
   
   def roster=(roster)
@@ -19,7 +19,7 @@ class School
     @roster
   end
   
-  roster = {}
+ # roster = {}
   
   def add_student(name, grade)
    binding.pry 
