@@ -7,9 +7,9 @@ class School
     name=(name)
   end
   
-  def roster=(hash)
+  def roster=(roster)
   #return hash with keys of grade levels
-    @roster = hash
+    @roster = roster
     {}
   end
   
